@@ -28,11 +28,11 @@ cd
 # Move into the Downloads directory.
 cd ./Downloads
 ```
-2. Clone the theme.
+3. Clone the theme.
 ```bash
 git clone https://github.com/HyperHypa/Kiwawa-loading-plymouth-themes.git
 ```
-2. Place it into your Plymouth theme folder.
+4. Place it into your Plymouth theme folder.
 ```bash
 # Copy the the file into the Plymouth theme folder. 
 cp -r ./Kiwawa-loading-plymouth-themes/Kiwawa-loading /usr/share/plymouth/themes/
@@ -40,7 +40,7 @@ cp -r ./Kiwawa-loading-plymouth-themes/Kiwawa-loading /usr/share/plymouth/themes
 # Check if theme was successfully copied into the directory. There should now have "Kiwawa-loading" among the list of themes.
 sudo plymouth-set-default-theme -l
 ```
-3. Set the default theme to "Kiwawa-loading"
+5. Set the default theme to "Kiwawa-loading"
 ```bash
 # This command should set the theme if there are no errors shown.
 sudo plymouth-set-default-theme -R Kiwawa-loading
@@ -55,7 +55,7 @@ Try searching on YouTube with the prompt "How do I install Plymouth on ***Whatev
 
 ### 2. Does this work on Windows?
 
-No. If you know how to do so without messing with the bios, I'd love to know how you do it.
+No. If you know how to do so without messing with the bios, I'd love to learn how you do it.
 
 ### 3. Will you add this onto the AUR?
 
@@ -63,4 +63,4 @@ This would depend on if I have the time to learn it.
 
 ### 4. Can you help me install it?
 
-Ehhhh maybe? The instructions are up if you want to get this Plymouth theme working. If there is any issues with the instructions feel free to do make a pull request for it.
+Ehhhh maybe? The instructions are up if you want to get this Plymouth theme working. If there are any issues with the instructions, feel free to make a pull request for it.
