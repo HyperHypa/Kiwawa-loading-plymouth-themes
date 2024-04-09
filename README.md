@@ -47,7 +47,7 @@ sudo plymouth-set-default-theme -R Kiwawa-loading
 ```
 Your job is done, try rebooting the system to see if it works.
 
-## Frequent questions
+## FAQ
 
 ### 1. How do I install Plymouth?
 
